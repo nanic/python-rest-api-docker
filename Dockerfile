@@ -1,4 +1,4 @@
-FROM python2.7-alpine:latest
+FROM nanic/python2.7-alpine:latest
 COPY src /apps
 WORKDIR /apps
 RUN python -V
